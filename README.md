@@ -26,27 +26,27 @@ _6._ It will show all the commit
 ``` 
 $ git log --oneline ()
 ```
-7. will make a branch of the git repo os that you can work on your own and then merge later on
+_7_. It will make a branch of the git repo so that you can work on your own and then merge later on
 ```
 $ git checkout -b <branch name> 
 ```
-8. argument is the branch name you want to merge in your current branch
+_8._ The argument is the branch name you want to merge in your current branch
 ```
 $ git merge <arguement> 
 ```
-9. for getting a graphical visualisation of the git tree
+_9._ For getting a graphical visualisation of the git tree
 ```
 $ git log --oneline --color --graph --decorate
 ```
-10. add all local repo to your GitHub repo
+_10._ To sync local repository to your GitHub repository
 ```
 $ git remote add origin <url of the repo> 
 ```
-11. all the branches get pushed into GitHub repository
+_11._ All the branches wil get pushed into GitHub repository
 ``` 
 $ git push -all 
 ```
-12. will tell all the tech and pull history of the repository
+_12._ It will tell all the fetch and pull history of the repository
 ```
 $ git remote -v
 ```
